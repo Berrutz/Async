@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity implements IDownload {
             public void onClick(View view) {
                 //OnPreExecute
                 bttGo.setText("Dowloading..."); // modifico UI e posso perchè sono qui
-                backtask.doDownload(); // EFFETTUA DOWNLOAD IN BACKGROUND
+                backtask.doDownload(); // EFFETTUA DOWNLOADaa IN BACKGROUND
             }
         });
     }
